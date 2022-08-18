@@ -1,0 +1,34 @@
+.regular-custm__logos {
+    display: flex;
+
+    gap: 30px;
+
+// links
+.regular-custm__logos-link {
+    width: 170px;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    transition: border var(--global-animation), fill var(--global-animation);
+
+
+&:hover,
+&:focus {
+    border: 1px solid var(--link-hover-text-color);
+}
+
+&:hover .regular-custm__logos-svg,
+&:focus .regular-custm__logos-svg {
+    fill: var(--link-hover-text-color);
+}
+}
+.regular-custm__logos-svg {
+    transition: fill var(--global-animation);
+    fill: #afb1b8;
+    width: 106px;
+    height: 60px;
+}
+}
