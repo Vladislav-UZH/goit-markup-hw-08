@@ -2,10 +2,17 @@
 
     font-family: var(--secondary-font);
     color: var(--logo-header-black);
-    font-weight: 700;
-    font-size: 26px;
-    line-height: calc(31 / 26);
+    font-size: 24px;
+    line-height: calc(28 / 24);
+    text-align: center;
     letter-spacing: 0.03em;
+
+    @media screen and (min-width:1200px) {
+        font-weight: 700;
+        font-size: 26px;
+        line-height: calc(31 / 26);
+        letter-spacing: 0.03em;
+    }
 }
 
 .logo--indent {

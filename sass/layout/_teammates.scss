@@ -1,15 +1,27 @@
 .teammates {
   background-color: var(--teammates__section-bg-color);
-
+  padding: 60px 0;
+  @media screen and (min-width: 1200px) {
+      padding: 94px 0;
+    }
 
 &__list {
+
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
 
 &__item {
-  flex-basis: calc((100% - 30px * 7) / 8);
+  
+  // flex-basis: calc((100% - 30px * 4) / 3);
+  width: 100%;
+  @media screen and (min-width:768px) {
+    width: 354px;
+  }
+  @media screen and (min-width:1200px) {
+    width: 270px;
+  }
 }
 
 &__decription {

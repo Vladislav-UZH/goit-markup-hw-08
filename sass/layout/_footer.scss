@@ -5,10 +5,13 @@
 
 
 .footer__container {
-    display: flex;
-    align-items: baseline;
+    text-align: center;
+@media screen and (min-width: 1200px) {
+        display: flex;
+        align-items: baseline;
+        text-align: left;
 }
-
+}
 .footer__logo {
     color: var(--footer__logo-color);
 
@@ -21,6 +24,7 @@
 .footer__info {
     margin-top: 20px;
     font-style: normal;
+
 }
 
 .footer__location {
@@ -56,9 +60,21 @@
 }
 
 .address-container {
-    margin-right: 70px;
+    @media screen and (max-width:1199px) {
+        margin-bottom: 60px;
+        
+    }
+    @media screen and (min-width:1200px) {
+        margin-right: 70px;
+        
+    }
 }
-
+ .footer__wrap-networks{
+    @media screen and (max-width:1199px) {
+        margin-bottom: 60px;
+        
+    }
+ }
 .footer__title {
     margin-bottom: 20px;
     color: var(--footer__address-hover);
@@ -71,6 +87,7 @@
 .footer__networks {
     display: flex;
     gap: 10px;
+    justify-content: center;
 }
 
 .footer__links {
