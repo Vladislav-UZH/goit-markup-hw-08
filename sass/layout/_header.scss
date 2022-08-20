@@ -2,15 +2,21 @@
     
     background-color: var(--nav-bg-color);
     border-bottom: 1px solid #ececec;
-
+    @media screen and (max-width:767px) {
+        padding: 10px 0;
+        
+    }
 
 &__container {
-    display: flex;
-    align-items: center;
-    // @media screen and (min-width:768px) {
-    //     display: flex;
-    //     align-items: center;
-    // }
+    
+        display: flex;
+        align-items: center;
+    @media screen and(max-width:767px) {
+        justify-content: space-between;
+        
+    }
+    
+
 }
 }
 

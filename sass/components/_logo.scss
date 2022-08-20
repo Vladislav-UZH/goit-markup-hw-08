@@ -13,12 +13,15 @@
         line-height: calc(31 / 26);
         letter-spacing: 0.03em;
     }
-}
 
-.logo--indent {
-    margin-right: 93px;
+
+&--indent {
+    margin-right: 0;
+    @media screen and (min-width:1200px) {
+        margin-right: 93px;
+    }   
 }
 
 .logo__particle {
     color: var(--link-hover-text-color);
-}
+}}

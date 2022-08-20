@@ -1,5 +1,5 @@
 .hero {
-    max-width: 1600px;
+    width: 100%;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
         url(../photo/bg-img/head-im.jpg);
     background-repeat: no-repeat;
@@ -11,16 +11,26 @@
 
 
 .hero__headline {
-    margin-bottom: 30px;
-    width: 696px;
+    max-width: 360px;
     margin: 0 auto 30px auto;
+    
+    color: var(--nav-bg-color);
     font-weight: 900;
-    font-size: 44px;
-    line-height: calc(60 / 44);
+    font-size: 26px;
+    line-height: calc(42 / 26);
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: var(--nav-bg-color);
+    @media screen and (min-width:1200px) {
+        max-width: 696px;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: calc(60 / 44);
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        
+    }
 }
 
 .hero__button {
