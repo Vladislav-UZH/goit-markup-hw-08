@@ -1076,6 +1076,11 @@ a {
           flex-direction: column;
   gap: 32px;
 }
+@media screen and (min-height: 500px) {
+  .mobile-menu__contacts {
+    margin-top: 30px;
+  }
+}
 
 .mobile-menu__links-contacts {
   font-weight: 500;

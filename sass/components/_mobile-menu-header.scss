@@ -69,6 +69,10 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
+  @media screen and (min-height:500px) {
+    margin-top: 30px;
+    
+  }
 }
 // CONTACTS LINKS
 
