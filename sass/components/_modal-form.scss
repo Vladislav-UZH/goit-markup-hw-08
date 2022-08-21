@@ -2,9 +2,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin-top: 40px;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin: 40px 40px;
 }
 
 .modal__strong {
@@ -186,15 +184,16 @@
 .modal__submit {
   margin: 0 auto;
   margin-top: 30px;
-  width: 200px;
+  width: 100%;
   max-width: 200px;
-  padding: 10px 55px;
+  padding: 10px 0;
   border: none;
   background-color: var(--link-hover-text-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
   display: flex;
+  justify-content: center;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
