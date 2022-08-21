@@ -1146,7 +1146,7 @@ a {
   background-position: center;
   background-size: cover;
   background-color: var(--section-footer__bg-color);
-  padding: 200px 0;
+  padding: 118px 0;
   margin: 0 auto;
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../photo/bg-img/img-1@1x_sm.jpg);
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../photo/bg-img/img-1@1x_sm.jpg);
@@ -1171,6 +1171,7 @@ a {
 }
 @media screen and (min-width: 1200px) {
   .hero {
+    padding: 200px 0;
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../photo/bg-img/img-1@1x_lg.jpg);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../photo/bg-img/img-1@1x_lg.jpg);
   }
@@ -1595,11 +1596,6 @@ a {
 }
 .footer .footer__mail {
   margin-bottom: 9px;
-}
-@media screen and (max-width: 1199px) {
-  .footer .address-container {
-    margin-bottom: 60px;
-  }
 }
 .footer .footer__title {
   margin-bottom: 20px;
