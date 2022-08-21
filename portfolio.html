@@ -34,10 +34,10 @@
           </button>
           <ul class="header__menu">
             <li class="header__item">
-              <a class="header__link header__link--active" href="./index.html">Студия</a>
+              <a class="header__link" href="./index.html">Студия</a>
             </li>
             <li class="header__item">
-              <a class="header__link" href="./portfolio.html">Портфолио</a>
+              <a class="header__link header__link--active" href="./portfolio.html">Портфолио</a>
             </li>
             <li class="header__item">
               <a class="header__link" href="">Контакты</a>
@@ -91,12 +91,35 @@
             <li class="main__items">
               <a class="main__link" href="">
                 <div class="main__overlay-head">
-                  <img
-                    class="main__img"
-                    src="./photo/img10.jpg"
-                    lang="en"
-                    alt="Laptop and Website"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./photo/card-set/img-1@1x_lg.png 1x,
+                        ./photo/card-set/img-1@2x_lg.png 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./photo/card-set/img-1@1x_md.png 1x,
+                        ./photo/card-set/img-1@2x_md.png 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./photo/card-set/img-1@1x_sm.png 1x,
+                        ./photo/card-set/img-1@2x_sm.png 2x
+                      "
+                    />
+                    <img
+                      class="main__img"
+                      src="./photo/card-set/img-1@1x_md.png"
+                      lang="en"
+                      alt="Laptop and Website"
+                    />
+                  </picture>
                   <div class="main__overlat-part">
                     <p class="main__text">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -115,12 +138,35 @@
             <li class="main__items">
               <a class="main__link" href="">
                 <div class="main__overlay-head">
-                  <img
-                    class="main__img"
-                    src="./photo/img-11.jpg"
-                    lang="en"
-                    alt="Two basketball players playing"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./photo/card-set/img-2@1x_lg.png 1x,
+                        ./photo/card-set/img-2@2x_lg.png 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./photo/card-set/img-2@1x_md.png 1x,
+                        ./photo/card-set/img-2@2x_md.png 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./photo/card-set/img-2@1x_sm.png 1x,
+                        ./photo/card-set/img-2@2x_sm.png 2x
+                      "
+                    />
+                    <img
+                      class="main__img"
+                      src="./photo/card-set/img-2@1x_md.png"
+                      lang="en"
+                      alt="Two basketball players playing"
+                    />
+                  </picture>
                   <div class="main__overlat-part">
                     <p class="main__text">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -139,12 +185,35 @@
             <li class="main__items">
               <a class="main__link" href="">
                 <div class="main__overlay-head">
-                  <img
-                    class="main__img"
-                    src="./photo/img-12.jpg"
-                    lang="en"
-                    alt="Seafood restaurant logos"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./photo/card-set/img-3@1x_lg.png 1x,
+                        ./photo/card-set/img-3@2x_lg.png 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./photo/card-set/img-3@1x_md.png 1x,
+                        ./photo/card-set/img-3@2x_md.png 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./photo/card-set/img-3@1x_sm.png 1x,
+                        ./photo/card-set/img-3@2x_sm.png 2x
+                      "
+                    />
+                    <img
+                      class="main__img"
+                      src="./photo/card-set/img-3@1x_md.png"
+                      lang="en"
+                      alt="Seafood restaurant logos"
+                    />
+                  </picture>
                   <div class="main__overlat-part">
                     <p class="main__text">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -163,7 +232,35 @@
             <li class="main__items">
               <a class="main__link" href="">
                 <div class="main__overlay-head">
-                  <img class="main__img" src="./photo/img-13.jpg" lang="en" alt="Headphones" />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./photo/card-set/img-4@1x_lg.png 1x,
+                        ./photo/card-set/img-4@2x_lg.png 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./photo/card-set/img-4@1x_md.png 1x,
+                        ./photo/card-set/img-4@2x_md.png 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./photo/card-set/img-4@1x_sm.png 1x,
+                        ./photo/card-set/img-4@2x_sm.png 2x
+                      "
+                    />
+                    <img
+                      class="main__img"
+                      src="./photo/card-set/img-4@1x_md.png"
+                      lang="en"
+                      alt="Headphones"
+                    />
+                  </picture>
                   <div class="main__overlat-part">
                     <p class="main__text">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -181,12 +278,36 @@
             <li class="main__items">
               <a class="main__link" href=""
                 ><div class="main__overlay-head">
-                  <img
-                    class="main__img"
-                    src="./photo/img-16.jpg"
-                    lang="en"
-                    alt="Two box one white and orange"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./photo/card-set/img-5@1x_lg.png 1x,
+                        ./photo/card-set/img-5@2x_lg.png 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./photo/card-set/img-5@1x_md.png 1x,
+                        ./photo/card-set/img-5@2x_md.png 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./photo/card-set/img-5@1x_sm.png 1x,
+                        ./photo/card-set/img-5@2x_sm.png 2x
+                      "
+                    />
+                    <img
+                      class="main__img"
+                      src="./photo/card-set/img-5@1x_md.png"
+                      lang="en"
+                      alt="Two box one white
+                    and orange"
+                    />
+                  </picture>
                   <div class="main__overlat-part">
                     <p class="main__text">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -205,12 +326,35 @@
             <li class="main__items">
               <a class="main__link" href=""
                 ><div class="main__overlay-head">
-                  <img
-                    class="main__img"
-                    src="./photo/img-14.jpg"
-                    lang="en"
-                    alt="screen and website"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./photo/card-set/img-6@1x_lg.png 1x,
+                        ./photo/card-set/img-6@2x_lg.png 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./photo/card-set/img-6@1x_md.png 1x,
+                        ./photo/card-set/img-6@2x_md.png 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./photo/card-set/img-6@1x_sm.png 1x,
+                        ./photo/card-set/img-6@2x_sm.png 2x
+                      "
+                    />
+                    <img
+                      class="main__img"
+                      src="./photo/card-set/img-6@1x_md.png"
+                      lang="en"
+                      alt="screen and website"
+                    />
+                  </picture>
                   <div class="main__overlat-part">
                     <p class="main__text">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -230,7 +374,35 @@
             <li class="main__items">
               <a class="main__link" href=""
                 ><div class="main__overlay-head">
-                  <img class="main__img" src="./photo/img-17.jpg" lang="en" alt="magazine" />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./photo/card-set/img-7@1x_lg.png 1x,
+                        ./photo/card-set/img-7@2x_lg.png 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./photo/card-set/img-7@1x_md.png 1x,
+                        ./photo/card-set/img-7@2x_md.png 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./photo/card-set/img-7@1x_sm.png 1x,
+                        ./photo/card-set/img-7@2x_sm.png 2x
+                      "
+                    />
+                    <img
+                      class="main__img"
+                      src="./photo/card-set/img-7@1x_md.png"
+                      lang="en"
+                      alt="magazine"
+                    />
+                  </picture>
                   <div class="main__overlat-part">
                     <p class="main__text">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -249,12 +421,35 @@
             <li class="main__items">
               <a class="main__link" href=""
                 ><div class="main__overlay-head">
-                  <img
-                    class="main__img"
-                    src="./photo/img-18.jpg"
-                    lang="en"
-                    alt=" LAB EL TAG label"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./photo/card-set/img-8@1x_lg.png 1x,
+                        ./photo/card-set/img-8@2x_lg.png 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./photo/card-set/img-8@1x_md.png 1x,
+                        ./photo/card-set/img-8@2x_md.png 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./photo/card-set/img-8@1x_sm.png 1x,
+                        ./photo/card-set/img-8@2x_sm.png 2x
+                      "
+                    />
+                    <img
+                      class="main__img"
+                      src="./photo/card-set/img-8@1x_md.png"
+                      lang="en"
+                      alt=" LAB EL TAG label"
+                    />
+                  </picture>
                   <div class="main__overlat-part">
                     <p class="main__text">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -273,12 +468,35 @@
             <li class="main__items">
               <a class="main__link" href=""
                 ><div class="main__overlay-head">
-                  <img
-                    class="main__img"
-                    src="./photo/img-19.jpg"
-                    lang="en"
-                    alt="man using laptop and Growing Buisness app"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./photo/card-set/img-9@1x_lg.png 1x,
+                        ./photo/card-set/img-9@2x_lg.png 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./photo/card-set/img-9@1x_md.png 1x,
+                        ./photo/card-set/img-9@2x_md.png 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./photo/card-set/img-9@1x_sm.png 1x,
+                        ./photo/card-set/img-9@2x_sm.png 2x
+                      "
+                    />
+                    <img
+                      class="main__img"
+                      src="./photo/card-set/img-9@1x_md.png"
+                      lang="en"
+                      alt="man using laptop and Growing Buisness app"
+                    />
+                  </picture>
                   <div class="main__overlat-part">
                     <p class="main__text">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
