@@ -1566,6 +1566,11 @@ a {
   margin-top: 20px;
   font-style: normal;
 }
+@media screen and (max-width: 767px) {
+  .footer .footer__info {
+    margin-bottom: 60px;
+  }
+}
 .footer .footer__location {
   color: var(--nav-bg-color);
   font-weight: 400;
