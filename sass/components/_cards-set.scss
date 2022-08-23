@@ -76,9 +76,15 @@
     line-height: calc(28 / 18);
     letter-spacing: 0.03em;
     color: var(--footer__address-hover);
+   
     @media screen and (max-width:405px) {
         font-size: 17px;
         }
+    @media screen and (min-width:200px) and (max-width:300px) {
+        font-size: 14px;
+        line-height: calc(17 / 14);
+            letter-spacing: .02em;
+    }
 }
 
 .main__description {

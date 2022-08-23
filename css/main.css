@@ -971,6 +971,13 @@ a {
     font-size: 17px;
   }
 }
+@media screen and (min-width: 200px) and (max-width: 300px) {
+  .main__text {
+    font-size: 14px;
+    line-height: 1.2142857143;
+    letter-spacing: 0.02em;
+  }
+}
 
 .main__description {
   padding: 20px 24px;
