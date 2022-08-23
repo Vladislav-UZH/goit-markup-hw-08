@@ -727,6 +727,11 @@ a {
   -webkit-transition: background-color var(--global-animation);
   transition: background-color var(--global-animation);
 }
+@media screen and (max-width: 311px) {
+  .modal__submit {
+    margin-top: 10px;
+  }
+}
 .modal__submit:hover {
   background-color: #188ce8;
 }

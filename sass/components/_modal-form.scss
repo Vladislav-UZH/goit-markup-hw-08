@@ -201,7 +201,9 @@
   color: var(--footer__address-hover);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   transition: background-color var(--global-animation);
-
+  @media screen and (max-width:311px) {
+    margin-top: 10px;
+  }
   &:hover {
     background-color: #188ce8;
   }
