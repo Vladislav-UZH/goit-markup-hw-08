@@ -53,7 +53,11 @@
   text-align: center;
   letter-spacing: 0.02em;
   transition: color var(--global-animation);
-
+  @media screen and (min-width:200px) and (max-width:400px) {
+    font-size: 30px;
+    line-height: calc(42 / 30);
+    
+  }
   //   hover/focus links
   &:hover,
   &:focus {
@@ -82,6 +86,7 @@
   line-height: calc(28 / 24);
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+    
 }
 
 .mobile-menu__links-contacts--phone {
@@ -91,7 +96,12 @@
   letter-spacing: 0.02em;
   color: var(--link-hover-text-color);
 }
+.mobile-menu__links-contacts--phone,.mobile-menu__links-contacts{ 
+  @media screen and (min-width:200px) and (max-width:400px) {
+  font-size: 19px;
+  line-height: calc(27 / 19);
 
+}}
 .mobile-menu__networks {
   display: flex;
   flex-wrap: wrap;

@@ -1091,6 +1091,12 @@ a {
   -webkit-transition: color var(--global-animation);
   transition: color var(--global-animation);
 }
+@media screen and (min-width: 200px) and (max-width: 400px) {
+  .mobile-menu__links-nav {
+    font-size: 30px;
+    line-height: 1.4;
+  }
+}
 .mobile-menu__links-nav:hover, .mobile-menu__links-nav:focus {
   color: var(--link-hover-text-color);
 }
@@ -1130,6 +1136,13 @@ a {
   line-height: 1.1764705882;
   letter-spacing: 0.02em;
   color: var(--link-hover-text-color);
+}
+
+@media screen and (min-width: 200px) and (max-width: 400px) {
+  .mobile-menu__links-contacts--phone, .mobile-menu__links-contacts {
+    font-size: 19px;
+    line-height: 1.4210526316;
+  }
 }
 
 .mobile-menu__networks {
